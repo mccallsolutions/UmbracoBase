@@ -1,0 +1,28 @@
+﻿@using ClientDependency.Core.Mvc
+@using UmbracoBase.Web.Models.DocumentTypes.WebPages
+@using UmbracoBase.Web.ExtensionMethods
+@using Constants = UmbracoBase.Web.Globals.Constants
+@inherits UmbracoViewPage<BaseWebPage>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@Html.Action(MVC.Meta.MetaTitle(Model.PageTitle))</title>
+    @Html.Action(MVC.Meta.MetaElements())
+    @{Html.RequiresCss("~/css/main.css");}
+    @Html.RenderCssHere()
+    @{
+        Html.RequiresJs("~/scripts/slimmage.settings.js", providerName: Constants.HeadRendererProvider);
+        Html.RequiresJs("~/scripts/slimmage.js", providerName: Constants.HeadRendererProvider);
+    }
+    @Html.RenderJsHere(Constants.HeadRendererProvider)
+</head>
+<body>
+    <a href="/">Go home</a>
+    @RenderBody()
+    @{ Html.RequiresJs("~/scripts/main.js");}
+    @Html.RenderJsHere()    
+</body>
+</html>

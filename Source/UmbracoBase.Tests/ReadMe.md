@@ -1,0 +1,1 @@
+﻿All test names must be prefixed with "Test" so it is easy to distingush in code what is a test and what is normal code.

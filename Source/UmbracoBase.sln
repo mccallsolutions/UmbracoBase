@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoBase.Web", "UmbracoBase.Web\UmbracoBase.Web.csproj", "{847E8440-2D21-4335-8D9E-6383247B0F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoBase.Tests", "UmbracoBase.Tests\UmbracoBase.Tests.csproj", "{3DB98211-63A0-4688-BC02-AC7593467515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{268C68B1-07A8-41E9-977A-54A74E65DC10}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE.md = ..\LICENSE.md
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{847E8440-2D21-4335-8D9E-6383247B0F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847E8440-2D21-4335-8D9E-6383247B0F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847E8440-2D21-4335-8D9E-6383247B0F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847E8440-2D21-4335-8D9E-6383247B0F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847E8440-2D21-4335-8D9E-6383247B0F49}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{847E8440-2D21-4335-8D9E-6383247B0F49}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{3DB98211-63A0-4688-BC02-AC7593467515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB98211-63A0-4688-BC02-AC7593467515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB98211-63A0-4688-BC02-AC7593467515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB98211-63A0-4688-BC02-AC7593467515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB98211-63A0-4688-BC02-AC7593467515}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{3DB98211-63A0-4688-BC02-AC7593467515}.Staging|Any CPU.Build.0 = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+img {
+    max-width: 100%;   
+}
+
+.responsive-image {
+    width: 270px;
+    display: inline-block;
+}
+
+@media only screen and (max-width : 768px) {
+    .responsive-image {
+        width: 480px;
+        display: block;
+    }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

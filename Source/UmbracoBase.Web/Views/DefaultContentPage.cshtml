@@ -1,0 +1,16 @@
+﻿@using UmbracoBase.Web.Models.DocumentTypes.WebPages.ContentPages
+@using Slimsy
+@inherits UmbracoViewPage<DefaultContentPage>
+@{
+    Layout = "_Layout.cshtml";
+}
+<h1>
+    @Model.HeadingTitle
+</h1>
+@if (Model.MainImage != null)
+{
+    <section class="responsive-image">
+        <img src="@Umbraco.TypedMedia(Model.MainImage.Id).GetResponsiveImageUrl(270, 161)" alt="@Model.MainImage.AltText" />
+    </section>
+}
+@Html.Raw(Model.BodyText)
